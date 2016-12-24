@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EAF3DD91E0EA0C70014DAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF3DD81E0EA0C70014DAE4 /* main.m */; };
+		9EAF3DDC1E0EA0C70014DAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF3DDB1E0EA0C70014DAE4 /* AppDelegate.m */; };
+		9EAF3DDF1E0EA0C70014DAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF3DDE1E0EA0C70014DAE4 /* ViewController.m */; };
+		9EAF3DE21E0EA0C80014DAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF3DE01E0EA0C80014DAE4 /* Main.storyboard */; };
+		9EAF3DE41E0EA0C80014DAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF3DE31E0EA0C80014DAE4 /* Assets.xcassets */; };
+		9EAF3DE71E0EA0C80014DAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAF3DE51E0EA0C80014DAE4 /* LaunchScreen.storyboard */; };
+		9EAF3DF21E0EA0C80014DAE4 /* SlienceLiveTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF3DF11E0EA0C80014DAE4 /* SlienceLiveTVTests.m */; };
+		9EAF3DFD1E0EA0C80014DAE4 /* SlienceLiveTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF3DFC1E0EA0C80014DAE4 /* SlienceLiveTVUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EAF3DEE1E0EA0C80014DAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EAF3DCC1E0EA0C70014DAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EAF3DD31E0EA0C70014DAE4;
+			remoteInfo = SlienceLiveTV;
+		};
+		9EAF3DF91E0EA0C80014DAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EAF3DCC1E0EA0C70014DAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EAF3DD31E0EA0C70014DAE4;
+			remoteInfo = SlienceLiveTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EAF3DD41E0EA0C70014DAE4 /* SlienceLiveTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlienceLiveTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAF3DD81E0EA0C70014DAE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EAF3DDA1E0EA0C70014DAE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EAF3DDB1E0EA0C70014DAE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EAF3DDD1E0EA0C70014DAE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9EAF3DDE1E0EA0C70014DAE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EAF3DE11E0EA0C80014DAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EAF3DE31E0EA0C80014DAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EAF3DE61E0EA0C80014DAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EAF3DE81E0EA0C80014DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EAF3DED1E0EA0C80014DAE4 /* SlienceLiveTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlienceLiveTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAF3DF11E0EA0C80014DAE4 /* SlienceLiveTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlienceLiveTVTests.m; sourceTree = "<group>"; };
+		9EAF3DF31E0EA0C80014DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EAF3DF81E0EA0C80014DAE4 /* SlienceLiveTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlienceLiveTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAF3DFC1E0EA0C80014DAE4 /* SlienceLiveTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlienceLiveTVUITests.m; sourceTree = "<group>"; };
+		9EAF3DFE1E0EA0C80014DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EAF3DD11E0EA0C70014DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF3DEA1E0EA0C80014DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF3DF51E0EA0C80014DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EAF3DCB1E0EA0C70014DAE4 = {
+			isa = PBXGroup;
+			children = (
+				9EAF3DD61E0EA0C70014DAE4 /* SlienceLiveTV */,
+				9EAF3DF01E0EA0C80014DAE4 /* SlienceLiveTVTests */,
+				9EAF3DFB1E0EA0C80014DAE4 /* SlienceLiveTVUITests */,
+				9EAF3DD51E0EA0C70014DAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EAF3DD51E0EA0C70014DAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF3DD41E0EA0C70014DAE4 /* SlienceLiveTV.app */,
+				9EAF3DED1E0EA0C80014DAE4 /* SlienceLiveTVTests.xctest */,
+				9EAF3DF81E0EA0C80014DAE4 /* SlienceLiveTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EAF3DD61E0EA0C70014DAE4 /* SlienceLiveTV */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF3DDA1E0EA0C70014DAE4 /* AppDelegate.h */,
+				9EAF3DDB1E0EA0C70014DAE4 /* AppDelegate.m */,
+				9EAF3DDD1E0EA0C70014DAE4 /* ViewController.h */,
+				9EAF3DDE1E0EA0C70014DAE4 /* ViewController.m */,
+				9EAF3DE01E0EA0C80014DAE4 /* Main.storyboard */,
+				9EAF3DE31E0EA0C80014DAE4 /* Assets.xcassets */,
+				9EAF3DE51E0EA0C80014DAE4 /* LaunchScreen.storyboard */,
+				9EAF3DE81E0EA0C80014DAE4 /* Info.plist */,
+				9EAF3DD71E0EA0C70014DAE4 /* Supporting Files */,
+			);
+			path = SlienceLiveTV;
+			sourceTree = "<group>";
+		};
+		9EAF3DD71E0EA0C70014DAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF3DD81E0EA0C70014DAE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EAF3DF01E0EA0C80014DAE4 /* SlienceLiveTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF3DF11E0EA0C80014DAE4 /* SlienceLiveTVTests.m */,
+				9EAF3DF31E0EA0C80014DAE4 /* Info.plist */,
+			);
+			path = SlienceLiveTVTests;
+			sourceTree = "<group>";
+		};
+		9EAF3DFB1E0EA0C80014DAE4 /* SlienceLiveTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF3DFC1E0EA0C80014DAE4 /* SlienceLiveTVUITests.m */,
+				9EAF3DFE1E0EA0C80014DAE4 /* Info.plist */,
+			);
+			path = SlienceLiveTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EAF3DD31E0EA0C70014DAE4 /* SlienceLiveTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAF3E011E0EA0C80014DAE4 /* Build configuration list for PBXNativeTarget "SlienceLiveTV" */;
+			buildPhases = (
+				9EAF3DD01E0EA0C70014DAE4 /* Sources */,
+				9EAF3DD11E0EA0C70014DAE4 /* Frameworks */,
+				9EAF3DD21E0EA0C70014DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlienceLiveTV;
+			productName = SlienceLiveTV;
+			productReference = 9EAF3DD41E0EA0C70014DAE4 /* SlienceLiveTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EAF3DEC1E0EA0C80014DAE4 /* SlienceLiveTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAF3E041E0EA0C80014DAE4 /* Build configuration list for PBXNativeTarget "SlienceLiveTVTests" */;
+			buildPhases = (
+				9EAF3DE91E0EA0C80014DAE4 /* Sources */,
+				9EAF3DEA1E0EA0C80014DAE4 /* Frameworks */,
+				9EAF3DEB1E0EA0C80014DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EAF3DEF1E0EA0C80014DAE4 /* PBXTargetDependency */,
+			);
+			name = SlienceLiveTVTests;
+			productName = SlienceLiveTVTests;
+			productReference = 9EAF3DED1E0EA0C80014DAE4 /* SlienceLiveTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EAF3DF71E0EA0C80014DAE4 /* SlienceLiveTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAF3E071E0EA0C80014DAE4 /* Build configuration list for PBXNativeTarget "SlienceLiveTVUITests" */;
+			buildPhases = (
+				9EAF3DF41E0EA0C80014DAE4 /* Sources */,
+				9EAF3DF51E0EA0C80014DAE4 /* Frameworks */,
+				9EAF3DF61E0EA0C80014DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EAF3DFA1E0EA0C80014DAE4 /* PBXTargetDependency */,
+			);
+			name = SlienceLiveTVUITests;
+			productName = SlienceLiveTVUITests;
+			productReference = 9EAF3DF81E0EA0C80014DAE4 /* SlienceLiveTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EAF3DCC1E0EA0C70014DAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "岳克奎";
+				TargetAttributes = {
+					9EAF3DD31E0EA0C70014DAE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+					};
+					9EAF3DEC1E0EA0C80014DAE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EAF3DD31E0EA0C70014DAE4;
+					};
+					9EAF3DF71E0EA0C80014DAE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EAF3DD31E0EA0C70014DAE4;
+					};
+				};
+			};
+			buildConfigurationList = 9EAF3DCF1E0EA0C70014DAE4 /* Build configuration list for PBXProject "SlienceLiveTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EAF3DCB1E0EA0C70014DAE4;
+			productRefGroup = 9EAF3DD51E0EA0C70014DAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EAF3DD31E0EA0C70014DAE4 /* SlienceLiveTV */,
+				9EAF3DEC1E0EA0C80014DAE4 /* SlienceLiveTVTests */,
+				9EAF3DF71E0EA0C80014DAE4 /* SlienceLiveTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EAF3DD21E0EA0C70014DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAF3DE71E0EA0C80014DAE4 /* LaunchScreen.storyboard in Resources */,
+				9EAF3DE41E0EA0C80014DAE4 /* Assets.xcassets in Resources */,
+				9EAF3DE21E0EA0C80014DAE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF3DEB1E0EA0C80014DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF3DF61E0EA0C80014DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EAF3DD01E0EA0C70014DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAF3DDF1E0EA0C70014DAE4 /* ViewController.m in Sources */,
+				9EAF3DDC1E0EA0C70014DAE4 /* AppDelegate.m in Sources */,
+				9EAF3DD91E0EA0C70014DAE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF3DE91E0EA0C80014DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAF3DF21E0EA0C80014DAE4 /* SlienceLiveTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF3DF41E0EA0C80014DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAF3DFD1E0EA0C80014DAE4 /* SlienceLiveTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EAF3DEF1E0EA0C80014DAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EAF3DD31E0EA0C70014DAE4 /* SlienceLiveTV */;
+			targetProxy = 9EAF3DEE1E0EA0C80014DAE4 /* PBXContainerItemProxy */;
+		};
+		9EAF3DFA1E0EA0C80014DAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EAF3DD31E0EA0C70014DAE4 /* SlienceLiveTV */;
+			targetProxy = 9EAF3DF91E0EA0C80014DAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EAF3DE01E0EA0C80014DAE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EAF3DE11E0EA0C80014DAE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EAF3DE51E0EA0C80014DAE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EAF3DE61E0EA0C80014DAE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EAF3DFF1E0EA0C80014DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EAF3E001E0EA0C80014DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EAF3E021E0EA0C80014DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = SlienceLiveTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.SlienceLiveTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EAF3E031E0EA0C80014DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = SlienceLiveTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.SlienceLiveTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9EAF3E051E0EA0C80014DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = SlienceLiveTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.SlienceLiveTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlienceLiveTV.app/SlienceLiveTV";
+			};
+			name = Debug;
+		};
+		9EAF3E061E0EA0C80014DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = SlienceLiveTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.SlienceLiveTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlienceLiveTV.app/SlienceLiveTV";
+			};
+			name = Release;
+		};
+		9EAF3E081E0EA0C80014DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = SlienceLiveTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.SlienceLiveTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlienceLiveTV;
+			};
+			name = Debug;
+		};
+		9EAF3E091E0EA0C80014DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = SlienceLiveTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ738816656.SlienceLiveTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlienceLiveTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EAF3DCF1E0EA0C70014DAE4 /* Build configuration list for PBXProject "SlienceLiveTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAF3DFF1E0EA0C80014DAE4 /* Debug */,
+				9EAF3E001E0EA0C80014DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAF3E011E0EA0C80014DAE4 /* Build configuration list for PBXNativeTarget "SlienceLiveTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAF3E021E0EA0C80014DAE4 /* Debug */,
+				9EAF3E031E0EA0C80014DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EAF3E041E0EA0C80014DAE4 /* Build configuration list for PBXNativeTarget "SlienceLiveTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAF3E051E0EA0C80014DAE4 /* Debug */,
+				9EAF3E061E0EA0C80014DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EAF3E071E0EA0C80014DAE4 /* Build configuration list for PBXNativeTarget "SlienceLiveTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAF3E081E0EA0C80014DAE4 /* Debug */,
+				9EAF3E091E0EA0C80014DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EAF3DCC1E0EA0C70014DAE4 /* Project object */;
+}
