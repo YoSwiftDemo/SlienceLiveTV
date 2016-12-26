@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3D0876B879EDA6C6C5875AE3DC4CC90C'
-               BlueprintName = 'Pods-SlienceLiveTV'
+               BlueprintIdentifier = '69EDDFA16BAA8405B72AE6F121A14CEB'
+               BlueprintName = 'XMNetworking'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-SlienceLiveTV.a'>
+               BuildableName = 'libXMNetworking.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

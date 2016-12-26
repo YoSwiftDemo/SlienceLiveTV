@@ -4,18 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
+		<key>Pods-SlienceLiveTV.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SlienceLiveTV.xcscheme</key>
+		<key>XMNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>3D0876B879EDA6C6C5875AE3DC4CC90C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69EDDFA16BAA8405B72AE6F121A14CEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
