@@ -591,6 +591,7 @@
 				9EAF3E031E0EA0C80014DAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EAF3E041E0EA0C80014DAE4 /* Build configuration list for PBXNativeTarget "SlienceLiveTVTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +600,7 @@
 				9EAF3E061E0EA0C80014DAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EAF3E071E0EA0C80014DAE4 /* Build configuration list for PBXNativeTarget "SlienceLiveTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +609,7 @@
 				9EAF3E091E0EA0C80014DAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
